@@ -9,6 +9,7 @@ export const MainCanvas = () => {
       <Canvas shadows dpr={[1, 2]} camera={{ fov: 55, position: [0, 0, 6] }}>
         <Environment files={"images/sky.jpg"} />
         <MainScene />
+        {/* <OrbitControls /> */}
       </Canvas>
     </div>
   );
